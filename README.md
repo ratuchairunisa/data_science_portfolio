@@ -1,5 +1,5 @@
 # Analysis of CO2 Emission Conversion into Biogas as Renewable Energy to Increase Indonesia's GDP
-![Biogas is a Renewable Energy Gas Resource](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYs8hpCpxsB6361f3MkrQjElY4hDfC_y8y7g&s)
+![Biogas is a Renewable Energy Gas Resource](https://www.renewables4u.com.au/wp-content/uploads/2023/05/renewable-energy-sources-for-a-sustainable-future-1024x536.jpg)
 
 Proyek ini dibuat sebagai syarat akhir kelulusan track Data Science di Startup Campus dalam program MSIB Batch oleh Kampus Merdeka
 
