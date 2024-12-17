@@ -1,8 +1,8 @@
 # Analysis of CO2 Emission Conversion into Biogas as Renewable Energy to Increase Indonesia's GDP
 
-Project ini dibuat sebagai syarat akhir kelulusan track Data Science di Startup Campus dalam program MSIB Batch 7 by Kampus Merdeka
+Proyek ini dibuat sebagai syarat akhir kelulusan track Data Science di Startup Campus dalam program MSIB Batch oleh Kampus Merdeka
 
-Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pertumbuhan ekonomi hijau terhadap pertumbuhan nilai GDP di Indonesia dengan menggunakan model machine learning time series forecasting
+Pada projyek ini kami ingin mengeksplorasi hubungan pada beberapa indikator pertumbuhan ekonomi hijau terhadap pertumbuhan nilai PDB di Indonesia dengan menggunakan model machine learning time series forecasting
 
 ## Project Overview
 -	Memahami faktor-faktor utama yang mendorong naiknya nilai PDB di Indonesia.
@@ -29,7 +29,7 @@ Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pert
     -	Looker Studio: Dashboard 
     -	Canva: Deck Presentation
 
-## Metodologi
+## Methodology
 ### 1.	Data Preparation
 - Data Loading. Loading dataset dalam konteks machine learning adalah proses mengimpor atau memasukkan data ke dalam lingkungan pemrograman atau sistem yang digunakan untuk pengembangan model machine learning. Dalam hal ini kita input dataset utama yaitu dari OECD (Organization for Economic Co-operation and Development).
 - Data structuring menggunakan pivot table agar lebih rapi.
@@ -50,7 +50,7 @@ Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pert
 ### 4. Modelling 
 Menggunakan algoritma model ARIMA dan ARIMAX untuk time series forecasting.
 
-## Hasil Model
+## Model Results
 ### 1.	Algoritma Model yang digunakan:
 - ARIMA (Autoregressive Integrated Moving Average). ARIMA adalah model peramalan deret waktu klasik yang menangkap pola dan tren non-musiman dalam data. Model ARIMA khususnya digunakan untuk data deret waktu stasioner, di mana rata-rata dan variansnya tetap konstan dari waktu ke waktu.
 - Akurasi Model: Model yang dibangun menunjukkan tingkat akurasi yang cukup baik dengan metrik:
@@ -71,20 +71,19 @@ Menggunakan algoritma model ARIMA dan ARIMAX untuk time series forecasting.
 Berdasarkan perbandingan tiga metrik, ARIMAX lebih unggul dengan eror lebih rendah dalam semua metrik, menunjukkan bahwa model dengan penerapan factor/ variable eksternal menghasilkan prediksi masa depan yang lebih akurat.
 
 ## Dashboard Visualisasi
-Kami telah membuat dashboard interaktif menggunakan Looker Studio yang memvisualisasikan temuan dari proyek ini.
-- Tautan dashboard: https://lookerstudio.google.com/reporting/200f721a-478d-44d8-8bd9-ccf638d9d920
+Kami telah membuat dashboard interaktif menggunakan Looker Studio untuk memvisualisasikan temuan dari proyek ini yang bisa dilihat pada link berikut https://lookerstudio.google.com/reporting/200f721a-478d-44d8-8bd9-ccf638d9d920
 
 ## Insights
 - Energi terbarukan khususnya biogas berpotensi mengurangi emisi CO2 dan menumbuhkan ekonomi Indonesia yang dapat dilihat dari pertumbuhan nilai PDB.
 - Pemanfaatan energi terbarukan khususnya biogas mendukung terjadinya transisi energi bersih, menekan penggunaan bahan bakar fosil, dan mendukung target Net Zero Emissions.
 
-## Rekomendasi Kebijakan
+## Policy Recommendations
 1.	Investasi Energi Terbarukan: Peningkatan investasi pada sektor energi terbarukan, khususnya biogas, dapat memberikan dampak positif pada PDB.
 2.	Peningkatan Infrastruktur: Penyediaan infrastruktur untuk mendukung pengembangan energi terbarukan, terutama di daerah pedesaan.
 3.	Mengedukasi masyarakat awam tentang pentingnya transisi ke energi bersih untuk mendukung keberlanjutan ekonomi dan lingkungan
 
-## Tantangan & Pembelajaran
-1. Tantangan: 
+## Challenges & Learnings
+1. Challenges: 
 - Keterbatasan data historis yang sedikit memengaruhi performa model time series.
 - Kompleksitas hubungan antar variabel ekonomi yang membutuhkan analisis mendalam.
-2. Pembelajaran: Proyek ini memberikan wawasan mendalam tentang pentingnya pemanfaatan data dalam menemukan solusi dan  mendukung pengambilan keputusan yang berbasis fakta.
+2. Learnings: Proyek ini memberikan wawasan mendalam tentang pentingnya pemanfaatan data dalam menemukan solusi dan  mendukung pengambilan keputusan yang berbasis fakta.
