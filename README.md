@@ -31,19 +31,19 @@ Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pert
 
 ## Metodologi
 ### 1.	Data Preparation
-1)	Data Loading. Loading dataset dalam konteks machine learning adalah proses mengimpor atau memasukkan data ke dalam lingkungan pemrograman atau sistem yang digunakan untuk pengembangan model machine learning. Dalam hal ini kita input dataset utama yaitu dari OECD (Organization for Economic Co-operation and Development).
-2)	Data structuring menggunakan pivot table agar lebih rapi.
-3)	Row count check untuk memastikan jumlah data yang digunakan adalah 34 baris.
-4)	Handling missing values, menggunakan metode forward fill (ffill) dan backward fill (bfill).
-5)	Handling data duplicate (jika terdapat data duplicate pada data)
+- Data Loading. Loading dataset dalam konteks machine learning adalah proses mengimpor atau memasukkan data ke dalam lingkungan pemrograman atau sistem yang digunakan untuk pengembangan model machine learning. Dalam hal ini kita input dataset utama yaitu dari OECD (Organization for Economic Co-operation and Development).
+- Data structuring menggunakan pivot table agar lebih rapi.
+- Row count check untuk memastikan jumlah data yang digunakan adalah 34 baris.
+- Handling missing values, menggunakan metode forward fill (ffill) dan backward fill (bfill).
+- Handling data duplicate (jika terdapat data duplicate pada data)
 ### 2.	Statistics for Data Science & Exploratory Data Analysis (EDA)
-1) Melakukan Exploratory Data Analysis (EDA). Tujuan utama dari EDA adalah untuk memahami struktur, karakteristik, dan pola dalam data. Pada tahap ini, kami memiliki misi untuk menemukan insight atau informasi yang tersembunyi dalam data, mengidentifikasi anomaly,  serta memahami hubungan antar variabel.
-2) Melakukan Explanatory Data Analysis (ExDA) yang memiliki tujuan utama untuk mengkomunikasikan temuan atau insight yang sudah didapatkan kepada audiens yang lebih luas, seperti stakeholder.
-3) Melihat Distribusi data
-4) Identifikasi hubungan linier dan non-linier
-5) Analisis korelasi antar variabel
-6) Menjelaskan kondisi dan perbedaan penggunaan mean, median, dan modus
-7) Menemukan dan mendeskripsikan statistical five summeries
+- Melakukan Exploratory Data Analysis (EDA). Tujuan utama dari EDA adalah untuk memahami struktur, karakteristik, dan pola dalam data. Pada tahap ini, kami memiliki misi untuk menemukan insight atau informasi yang tersembunyi dalam data, mengidentifikasi anomaly,  serta memahami hubungan antar variabel.
+- Melakukan Explanatory Data Analysis (ExDA) yang memiliki tujuan utama untuk mengkomunikasikan temuan atau insight yang sudah didapatkan kepada audiens yang lebih luas, seperti stakeholder.
+- Melihat Distribusi data
+- Identifikasi hubungan linier dan non-linier
+- Analisis korelasi antar variabel
+- Menjelaskan kondisi dan perbedaan penggunaan mean, median, dan modus
+- Menemukan dan mendeskripsikan statistical five summeries
 ### 3.	Data Preprocessing
 - Data splitting: pembagian dataset disebut data splitting yaitu proses membagi dataset menjadi beberapa subset yang terpisah untuk tujuan pelatihan, validasi, dan pengujian model machine learning. Dalam hal ini kami menggunakan rasio yang paling umum digunakan untuk data splitting yaitu 80:20, di mana 80% data digunakan untuk pelatihan (training) dan 20% sisanya digunakan untuk pengujian (testing). Akan tetapi, dalam kasus ini kami menggunakan rasio 90:10 dengan 90% untuk data latih dengan jumlah data sebanyak 30 data dan 10% untuk data uji dengan jumlah data sebanyak 4 data. Untuk data time series, data harus dibagi berdasarkan waktu. Data yang lebih baru digunakan untuk pengujian, sementara data yang lebih lama digunakan untuk pelatihan.
 - Standardisasi/Normalisasi: proses seperti standardisasi (mengubah data agar memiliki mean 0 dan standar deviasi 1) atau normalisasi (mengubah data agar berada dalam rentang tertentu) sebaiknya dilakukan setelah splitting. Ini karena Anda ingin memastikan bahwa test set benar-benar terpisah dari data pelatihan, dan standardisasi atau normalisasi dilakukan hanya berdasarkan data pelatihan.
