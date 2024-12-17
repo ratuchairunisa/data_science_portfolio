@@ -1,4 +1,4 @@
-# Analisis Konversi Emisi CO2 Menjadi Biogas sebagai Energi Terbarukan
+# Analysis of CO2 Emission Conversion into Biogas as Renewable Energy to Increase Indonesia's GDP
 
 Project ini dibuat sebagai syarat akhir kelulusan track Data Science di Startup Campus dalam program MSIB Batch 7 by Kampus Merdeka
 
