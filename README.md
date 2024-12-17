@@ -1,4 +1,5 @@
 # Analysis of CO2 Emission Conversion into Biogas as Renewable Energy to Increase Indonesia's GDP
+![Biogas is a Renewable Energy Gas Resource] (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYs8hpCpxsB6361f3MkrQjElY4hDfC_y8y7g&s)
 
 Proyek ini dibuat sebagai syarat akhir kelulusan track Data Science di Startup Campus dalam program MSIB Batch oleh Kampus Merdeka
 
@@ -89,6 +90,6 @@ Kami telah membuat dashboard interaktif menggunakan Looker Studio untuk memvisua
 2. Learnings: Proyek ini memberikan wawasan mendalam tentang pentingnya pemanfaatan data dalam menemukan solusi dan  mendukung pengambilan keputusan yang berbasis fakta.
 
 ## Kontak
-Author: Ratu Chairunisa
-Email: ratuchairunisa2808@gmail.com
-LinkedIn: www.linkedin.com/in/ratuchairunisa
+- Author: Ratu Chairunisa
+- Email: ratuchairunisa2808@gmail.com
+- LinkedIn: www.linkedin.com/in/ratuchairunisa
