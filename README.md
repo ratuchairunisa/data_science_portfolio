@@ -2,7 +2,7 @@
 
 Project ini dibuat sebagai syarat akhir kelulusan track Data Science di Startup Campus dalam program MSIB Batch 7 by Kampus Merdeka
 
-Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pertumbuhan pertumbuhan ekonomi hijau terhadap pertumbuhan nilai GDP di Indonesia dengan menggunakan model machine learning time series forecasting
+Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pertumbuhan ekonomi hijau terhadap pertumbuhan nilai GDP di Indonesia dengan menggunakan model machine learning time series forecasting
 
 ## Project Overview
 -	Memahami faktor-faktor utama yang mendorong naiknya nilai PDB di Indonesia.
