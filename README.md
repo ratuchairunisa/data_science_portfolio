@@ -37,22 +37,23 @@ Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pert
 4)	Handling missing values, menggunakan metode forward fill (ffill) dan backward fill (bfill).
 5)	Handling data duplicate (jika terdapat data duplicate pada data)
 ### 2.	Statistics for Data Science & Exploratory Data Analysis (EDA)
-  •	Melakukan Exploratory Data Analysis (EDA). Tujuan utama dari EDA adalah untuk memahami struktur, karakteristik, dan pola dalam data. Pada tahap ini, kami memiliki misi untuk menemukan insight       atau informasi yang tersembunyi dalam data, mengidentifikasi anomaly,  serta memahami hubungan antar variabel.
-  • Melakukan Explanatory Data Analysis (ExDA) yang memiliki tujuan utama untuk mengkomunikasikan temuan atau insight yang sudah didapatkan kepada audiens yang lebih luas, seperti stakeholder.
-  •	Melihat Distribusi data
-  •	Identifikasi hubungan linier dan non-linier
-  •	Analisis korelasi antar variabel
-  •	Menjelaskan kondisi dan perbedaan penggunaan mean, median, dan modus
-  •	Menemukan dan mendeskripsikan statistical five summeries
+•	Melakukan Exploratory Data Analysis (EDA). Tujuan utama dari EDA adalah untuk memahami struktur, karakteristik, dan pola dalam data. Pada tahap ini, kami memiliki misi untuk menemukan insight atau informasi yang tersembunyi dalam data, mengidentifikasi anomaly,  serta memahami hubungan antar variabel.
+• Melakukan Explanatory Data Analysis (ExDA) yang memiliki tujuan utama untuk mengkomunikasikan temuan atau insight yang sudah didapatkan kepada audiens yang lebih luas, seperti stakeholder.
+•	Melihat Distribusi data
+•	Identifikasi hubungan linier dan non-linier
+•	Analisis korelasi antar variabel
+•	Menjelaskan kondisi dan perbedaan penggunaan mean, median, dan modus
+•	Menemukan dan mendeskripsikan statistical five summeries
 ### 3.	Data Preprocessing
 •	Data splitting: pembagian dataset disebut data splitting yaitu proses membagi dataset menjadi beberapa subset yang terpisah untuk tujuan pelatihan, validasi, dan pengujian model machine learning. Dalam hal ini kami menggunakan rasio yang paling umum digunakan untuk data splitting yaitu 80:20, di mana 80% data digunakan untuk pelatihan (training) dan 20% sisanya digunakan untuk pengujian (testing). Akan tetapi, dalam kasus ini kami menggunakan rasio 90:10 dengan 90% untuk data latih dengan jumlah data sebanyak 30 data dan 10% untuk data uji dengan jumlah data sebanyak 4 data. Untuk data time series, data harus dibagi berdasarkan waktu. Data yang lebih baru digunakan untuk pengujian, sementara data yang lebih lama digunakan untuk pelatihan.
+
 •	Standardisasi/Normalisasi: proses seperti standardisasi (mengubah data agar memiliki mean 0 dan standar deviasi 1) atau normalisasi (mengubah data agar berada dalam rentang tertentu) sebaiknya dilakukan setelah splitting. Ini karena Anda ingin memastikan bahwa test set benar-benar terpisah dari data pelatihan, dan standardisasi atau normalisasi dilakukan hanya berdasarkan data pelatihan.
 ### 4. Modelling 
 Menggunakan algoritma model ARIMA dan ARIMAX untuk time series forecasting.
 
 ## Hasil Model
 ### 1.	Algoritma Model yang digunakan:
-•	ARIMA (Autoregressive Integrated Moving Average). ARIMA adalah model peramalan deret waktu klasik yang menangkap pola dan tren non-musiman dalam data. Model ARIMA khususnya digunakan untuk          data deret waktu stasioner, di mana rata-rata dan variansnya tetap konstan dari waktu ke Waktu
+•	ARIMA (Autoregressive Integrated Moving Average). ARIMA adalah model peramalan deret waktu klasik yang menangkap pola dan tren non-musiman dalam data. Model ARIMA khususnya digunakan untuk data deret waktu stasioner, di mana rata-rata dan variansnya tetap konstan dari waktu ke waktu.
 •	Akurasi Model: Model yang dibangun menunjukkan tingkat akurasi yang cukup baik dengan metrik:
   -	MAE (Mean Absolute Error): 356.60
   -	RMSE (Root Mean Squared Error): 402.16
