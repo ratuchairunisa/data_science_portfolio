@@ -36,7 +36,6 @@ Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pert
     3)	Row count check untuk memastikan jumlah data yang digunakan adalah 34 baris.
     4)	Handling missing values, menggunakan metode forward fill (ffill) dan backward fill (bfill).
     5)	Handling data duplicate (jika terdapat data duplicate pada data)
-
 ### 2.	Statistics for Data Science & Exploratory Data Analysis (EDA)
   •	Melakukan Exploratory Data Analysis (EDA). Tujuan utama dari EDA adalah untuk memahami struktur, karakteristik, dan pola dalam data. Pada tahap ini, kami memiliki misi untuk menemukan insight       atau informasi yang tersembunyi dalam data, mengidentifikasi anomaly,  serta memahami hubungan antar variabel.
   • Melakukan Explanatory Data Analysis (ExDA) yang memiliki tujuan utama untuk mengkomunikasikan temuan atau insight yang sudah didapatkan kepada audiens yang lebih luas, seperti stakeholder.
