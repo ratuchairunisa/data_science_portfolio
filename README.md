@@ -87,3 +87,8 @@ Kami telah membuat dashboard interaktif menggunakan Looker Studio untuk memvisua
 - Keterbatasan data historis yang sedikit memengaruhi performa model time series.
 - Kompleksitas hubungan antar variabel ekonomi yang membutuhkan analisis mendalam.
 2. Learnings: Proyek ini memberikan wawasan mendalam tentang pentingnya pemanfaatan data dalam menemukan solusi dan  mendukung pengambilan keputusan yang berbasis fakta.
+
+## Kontak
+Author: Ratu Chairunisa
+Email: ratuchairunisa2808@gmail.com
+LinkedIn: www.linkedin.com/in/ratuchairunisa
