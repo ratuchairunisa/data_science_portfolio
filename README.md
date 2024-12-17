@@ -31,7 +31,7 @@ Pada project ini kami ingin mengeksplorasi hubungan pada beberapa indikator pert
 
 ## Metodologi
 ### 1.	Data Preparation
-   1)	Data Loading. Loading dataset dalam konteks machine learning adalah proses mengimpor atau memasukkan data ke dalam lingkungan pemrograman atau sistem yang digunakan untuk pengembangan model         machine learning. Dalam hal ini kita input dataset utama yaitu dari OECD (Organization for Economic Co-operation and Development).
+   1)	Data Loading. Loading dataset dalam konteks machine learning adalah proses mengimpor atau memasukkan data ke dalam lingkungan pemrograman atau sistem yang digunakan untuk pengembangan model machine learning. Dalam hal ini kita input dataset utama yaitu dari OECD (Organization for Economic Co-operation and Development).
     2)	Data structuring menggunakan pivot table agar lebih rapi.
     3)	Row count check untuk memastikan jumlah data yang digunakan adalah 34 baris.
     4)	Handling missing values, menggunakan metode forward fill (ffill) dan backward fill (bfill).
