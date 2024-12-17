@@ -58,7 +58,7 @@ Menggunakan algoritma model ARIMA dan ARIMAX untuk time series forecasting.
   -	RMSE (Root Mean Squared Error): 402.16
   -	MAPE (Mean Absolute Percentage Error): 2.95%
       
-(Taruh Gambar ARIMA prediction)
+![ARIMA prediction]("C:\Users\62852\Downloads\ARIMA.png")
 
 •	ARIMAX (Autoregressive Integrated Moving Average with Exogenous Variables). Model ARIMAX, yang merupakan singkatan dari AutoRegressive Integrated Moving Average dengan eXogenous inputs, merupakan versi lanjutan dari model ARIMA (AutoRegressive Integrated Moving Average). Model ARIMAX memperluas kerangka kerja ARIMA dengan mengintegrasikan variabel eksogen, yang merupakan faktor eksternal yang dapat mempengaruhi waktu luang yang sedang dipelajari. Integrasi ini memungkinkan model untuk memanfaatkan informasi tambahan yang dapat meningkatkan akurasi peramalan secara signifikan.
 •	Akurasi Model: Model yang dibangun menunjukkan tingkat akurasi yang cukup baik dengan metrik:
@@ -66,7 +66,7 @@ Menggunakan algoritma model ARIMA dan ARIMAX untuk time series forecasting.
   -	RMSE (Root Mean Squared Error): 359.51
   -	MAPE (Mean Absolute Percentage Error): 2.61%
 
-(Taruh Gambar ARIMAX prediction)
+![ARIMA prediction]("C:\Users\62852\Downloads\ARIMAX.png")
 
 Berdasarkan perbandingan tiga metrik, ARIMAX lebih unggul dengan eror lebih rendah dalam semua metrik, menunjukkan bahwa model dengan penerapan factor/ variable eksternal menghasilkan prediksi masa depan yang lebih akurat.
 
